@@ -678,6 +678,9 @@ definitions:
       name:
         type: "string"
         example: "doggie"
+      nickName:
+        type: "string"
+        example: "Dummy"
       photoUrls:
         type: "array"
         xml:
