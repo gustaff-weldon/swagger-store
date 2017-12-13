@@ -1,0 +1,10 @@
+sudo: false
+
+before_install:
+  - echo "It's alive!"
+
+install:
+  - echo "Installing now.... not"
+
+script:
+  - echo "Testing now.... not"
