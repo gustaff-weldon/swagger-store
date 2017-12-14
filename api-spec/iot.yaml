@@ -64,6 +64,7 @@ paths:
         in: "path"
         required: true
         type: "string"
+        x-example: "dimmer-1" # dredd
       - name: "value"
         in: "path"
         required: true
@@ -71,6 +72,7 @@ paths:
         maximum: 100.0
         minimum: 0.0
         format: "int32"
+        x-example: 30 # dredd
       responses:
         200:
           description: "response"
@@ -88,16 +90,19 @@ paths:
         in: "path"
         required: true
         type: "string"
+        x-example: "dimmer-1" # dredd
       - name: "value"
         in: "path"
         required: true
         type: "integer"
         format: "int32"
+        x-example: 25 # dredd
       - name: "timeunit"
         in: "path"
         required: true
         type: "integer"
         format: "int32"
+        x-example: 100 # dredd
       - name: "units"
         in: "query"
         required: false
@@ -123,6 +128,7 @@ paths:
         in: "path"
         required: true
         type: "string"
+        x-example: "lamp-2"
       responses:
         200:
           description: "response"
@@ -139,6 +145,7 @@ paths:
         in: "path"
         required: true
         type: "string"
+        x-example: "switch-1" # dredd
       - name: "value"
         in: "path"
         required: true
@@ -163,6 +170,7 @@ paths:
         in: "path"
         required: true
         type: "string"
+        x-example: "switch-2" # dredd
       - name: "value"
         in: "path"
         required: true
@@ -175,6 +183,7 @@ paths:
         required: true
         type: "integer"
         format: "int32"
+        x-example: 45 # dredd
       responses:
         200:
           description: "response"
@@ -216,6 +225,7 @@ paths:
         required: true
         type: "integer"
         format: "int32"
+        x-example: 7 # dredd
       responses:
         200:
           description: "the forecast"
@@ -232,6 +242,7 @@ paths:
         in: "path"
         required: true
         type: "string"
+        x-example: "living-room" # dredd
       responses:
         200:
           description: "Zone temperature"
@@ -249,6 +260,7 @@ paths:
         in: "path"
         required: true
         type: "string"
+        x-example: "patio" # dredd
       responses:
         200:
           description: "heater state"
@@ -266,6 +278,7 @@ paths:
         in: "path"
         required: true
         type: "string"
+        x-example: "kitchen" # dredd
       - name: "state"
         in: "path"
         required: true
