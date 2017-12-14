@@ -17,3 +17,11 @@ open http://localhost:8080/docs
 ```
 
 This project leverages the mega-awesome [swagger-tools](https://github.com/apigee-127/swagger-tools) middleware which does most all the work.
+
+### Start API tests
+```
+npm test
+```
+
+API tests are run using [Dredd](http://dredd.readthedocs.io/).
+Dredd config file is located in `dredd.yaml` in root folder.
